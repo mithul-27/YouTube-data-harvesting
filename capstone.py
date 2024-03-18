@@ -6,7 +6,7 @@ import streamlit as sl
 
 api_service_name = "youtube"
 api_version = "v3"
-api_key='AIzaSyBJ5nl-6uIwq2GlAy6nRJoH9C-Utpu6raw'
+api_key='#use your own API key'
 youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey=api_key)
 
